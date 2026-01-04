@@ -11,11 +11,11 @@
 using System.IO;
 using System.Linq;
 using UnityEngine;
-using YOUR_PACKAGE_ID.Installer.SimpleJSON;
+using com.IvanMurzak.Unity.MCP.Meshy.Installer.SimpleJSON;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("YOUR_PACKAGE_ID.Installer.Tests")]
-namespace YOUR_PACKAGE_ID.Installer
+[assembly: InternalsVisibleTo("com.IvanMurzak.Unity.MCP.Meshy.Installer.Tests")]
+namespace com.IvanMurzak.Unity.MCP.Meshy.Installer
 {
     public static partial class Installer
     {

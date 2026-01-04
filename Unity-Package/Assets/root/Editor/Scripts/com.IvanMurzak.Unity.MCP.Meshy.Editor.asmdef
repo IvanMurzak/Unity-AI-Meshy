@@ -1,9 +1,9 @@
 {
-    "name": "YOUR_PACKAGE_ID.Editor",
+    "name": "com.IvanMurzak.Unity.MCP.Meshy.Editor",
     "references": [
         "com.IvanMurzak.Unity.MCP.Editor",
         "com.IvanMurzak.Unity.MCP.Runtime",
-        "YOUR_PACKAGE_ID.Runtime"
+        "com.IvanMurzak.Unity.MCP.Meshy.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

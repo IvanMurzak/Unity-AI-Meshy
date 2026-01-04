@@ -12,7 +12,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
-namespace YOUR_PACKAGE_ID.Installer
+namespace com.IvanMurzak.Unity.MCP.Meshy.Installer
 {
     public static class PackageExporter
     {
@@ -20,8 +20,8 @@ namespace YOUR_PACKAGE_ID.Installer
         {
             Debug.Log("Starting Package Export...");
 
-            var packagePath = "Assets/YOUR_PACKAGE_NAME_INSTALLER";
-            var outputPath = "build/YOUR_PACKAGE_NAME_INSTALLER_FILE.unitypackage";
+            var packagePath = "Assets/AI Meshy Installer";
+            var outputPath = "build/AI-Meshy-Installer.unitypackage";
 
             // Ensure build directory exists
             var buildDir = Path.GetDirectoryName(outputPath);

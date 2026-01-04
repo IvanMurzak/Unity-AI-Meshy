@@ -14,7 +14,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace YOUR_PACKAGE_ID.Runtime.Tests
+namespace com.IvanMurzak.Unity.MCP.Meshy.Runtime.Tests
 {
     public partial class DemoTest
     {

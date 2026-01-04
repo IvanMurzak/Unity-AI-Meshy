@@ -1,5 +1,5 @@
 {
-    "name": "YOUR_PACKAGE_ID.Runtime",
+    "name": "com.IvanMurzak.Unity.MCP.Meshy.Runtime",
     "references": [
         "com.IvanMurzak.Unity.MCP.Runtime"
     ],

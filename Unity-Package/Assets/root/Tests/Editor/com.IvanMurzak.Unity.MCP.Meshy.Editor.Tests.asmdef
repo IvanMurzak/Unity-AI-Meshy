@@ -1,13 +1,18 @@
 {
-    "name": "YOUR_PACKAGE_ID.Tests",
+    "name": "com.IvanMurzak.Unity.MCP.Meshy.Editor.Tests",
     "references": [
+        "com.IvanMurzak.Unity.MCP.Editor",
+        "com.IvanMurzak.Unity.MCP.Editor.Tests",
         "com.IvanMurzak.Unity.MCP.Runtime",
-        "com.IvanMurzak.Unity.MCP.Runtime.Tests",
         "com.IvanMurzak.Unity.MCP.TestFiles",
         "UnityEngine.TestRunner",
-        "YOUR_PACKAGE_ID.Runtime"
+        "UnityEditor.TestRunner",
+        "com.IvanMurzak.Unity.MCP.Meshy.Runtime",
+        "com.IvanMurzak.Unity.MCP.Meshy.Editor"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
