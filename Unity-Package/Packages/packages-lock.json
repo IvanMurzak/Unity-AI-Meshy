@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.ivanmurzak.unity.mcp": {
-      "version": "0.35.2",
-      "depth": 1,
+      "version": "0.31.0",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.33",
@@ -23,77 +23,9 @@
       },
       "url": "https://package.openupm.com"
     },
-    "com.ivanmurzak.unity.mcp.meshy": {
-      "version": "file:./../../../Unity-Package/Assets/root",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.ivanmurzak.unity.mcp": "0.35.2"
-      }
-    },
-    "com.unity.editorcoroutines": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.feature.development": {
-      "version": "1.0.1",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.22",
-        "com.unity.ide.rider": "3.0.36",
-        "com.unity.ide.vscode": "1.2.5",
-        "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.2.3",
-        "com.unity.test-framework": "1.1.33",
-        "com.unity.testtools.codecoverage": "1.2.6"
-      }
-    },
-    "com.unity.ide.rider": {
-      "version": "3.0.36",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.9"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ide.vscode": {
-      "version": "1.2.5",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.performance.profile-analyzer": {
-      "version": "1.2.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.settings-manager": {
-      "version": "2.1.0",
-      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -109,35 +41,16 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.testtools.codecoverage": {
-      "version": "1.2.6",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.0.16",
-        "com.unity.settings-manager": "1.0.1"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ugui": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0"
-      }
-    },
     "extensions.unity.playerprefsex": {
       "version": "2.0.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.microsoft.aspnetcore.connections.abstractions": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.features": "10.0.1",
@@ -148,7 +61,7 @@
     },
     "org.nuget.microsoft.aspnetcore.http.connections.client": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.aspnetcore.http.connections.common": "10.0.1",
@@ -160,7 +73,7 @@
     },
     "org.nuget.microsoft.aspnetcore.http.connections.common": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.aspnetcore.connections.abstractions": "10.0.1",
@@ -170,7 +83,7 @@
     },
     "org.nuget.microsoft.aspnetcore.signalr.client": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.aspnetcore.signalr.client.core": "10.0.1",
@@ -180,7 +93,7 @@
     },
     "org.nuget.microsoft.aspnetcore.signalr.client.core": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.aspnetcore.signalr.protocols.json": "10.0.1",
@@ -194,7 +107,7 @@
     },
     "org.nuget.microsoft.aspnetcore.signalr.common": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.aspnetcore.connections.abstractions": "10.0.1",
@@ -205,7 +118,7 @@
     },
     "org.nuget.microsoft.aspnetcore.signalr.protocols.json": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.aspnetcore.signalr.common": "10.0.1"
@@ -214,7 +127,7 @@
     },
     "org.nuget.microsoft.bcl.asyncinterfaces": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.threading.tasks.extensions": "4.6.3"
@@ -223,7 +136,7 @@
     },
     "org.nuget.microsoft.bcl.memory": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.memory": "4.6.3",
@@ -233,7 +146,7 @@
     },
     "org.nuget.microsoft.bcl.timeprovider": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1"
@@ -242,14 +155,14 @@
     },
     "org.nuget.microsoft.codeanalysis.analyzers": {
       "version": "3.11.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.microsoft.codeanalysis.common": {
       "version": "4.14.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.codeanalysis.analyzers": "3.11.0",
@@ -266,7 +179,7 @@
     },
     "org.nuget.microsoft.codeanalysis.csharp": {
       "version": "4.14.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.codeanalysis.common": "4.14.0",
@@ -284,7 +197,7 @@
     },
     "org.nuget.microsoft.extensions.caching.abstractions": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.primitives": "10.0.1",
@@ -294,7 +207,7 @@
     },
     "org.nuget.microsoft.extensions.configuration": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -304,7 +217,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.abstractions": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.primitives": "10.0.1"
@@ -313,7 +226,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.binder": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -323,7 +236,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.commandline": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -333,7 +246,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.environmentvariables": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -343,7 +256,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.fileextensions": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -356,7 +269,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.json": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -369,7 +282,7 @@
     },
     "org.nuget.microsoft.extensions.configuration.usersecrets": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -381,7 +294,7 @@
     },
     "org.nuget.microsoft.extensions.dependencyinjection": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -392,7 +305,7 @@
     },
     "org.nuget.microsoft.extensions.dependencyinjection.abstractions": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -402,7 +315,7 @@
     },
     "org.nuget.microsoft.extensions.diagnostics": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration": "10.0.1",
@@ -413,7 +326,7 @@
     },
     "org.nuget.microsoft.extensions.diagnostics.abstractions": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.1",
@@ -426,14 +339,14 @@
     },
     "org.nuget.microsoft.extensions.features": {
       "version": "10.0.1",
-      "depth": 5,
+      "depth": 4,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.microsoft.extensions.fileproviders.abstractions": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.primitives": "10.0.1"
@@ -442,7 +355,7 @@
     },
     "org.nuget.microsoft.extensions.fileproviders.physical": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.fileproviders.abstractions": "10.0.1",
@@ -453,14 +366,14 @@
     },
     "org.nuget.microsoft.extensions.filesystemglobbing": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.microsoft.extensions.hosting": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -492,7 +405,7 @@
     },
     "org.nuget.microsoft.extensions.hosting.abstractions": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -507,7 +420,7 @@
     },
     "org.nuget.microsoft.extensions.logging": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -520,7 +433,7 @@
     },
     "org.nuget.microsoft.extensions.logging.abstractions": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.1",
@@ -532,7 +445,7 @@
     },
     "org.nuget.microsoft.extensions.logging.configuration": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -548,7 +461,7 @@
     },
     "org.nuget.microsoft.extensions.logging.console": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -564,7 +477,7 @@
     },
     "org.nuget.microsoft.extensions.logging.debug": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.1",
@@ -575,7 +488,7 @@
     },
     "org.nuget.microsoft.extensions.logging.eventlog": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.1",
@@ -588,7 +501,7 @@
     },
     "org.nuget.microsoft.extensions.logging.eventsource": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -605,7 +518,7 @@
     },
     "org.nuget.microsoft.extensions.options": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.1",
@@ -616,7 +529,7 @@
     },
     "org.nuget.microsoft.extensions.options.configurationextensions": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.extensions.configuration.abstractions": "10.0.1",
@@ -629,7 +542,7 @@
     },
     "org.nuget.microsoft.extensions.primitives": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.memory": "4.6.3",
@@ -639,7 +552,7 @@
     },
     "org.nuget.r3": {
       "version": "1.3.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.timeprovider": "8.0.0",
@@ -653,14 +566,14 @@
     },
     "org.nuget.system.buffers": {
       "version": "4.6.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.system.collections.immutable": {
       "version": "9.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.memory": "4.5.5",
@@ -670,14 +583,14 @@
     },
     "org.nuget.system.componentmodel.annotations": {
       "version": "5.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.system.diagnostics.diagnosticsource": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.memory": "4.6.3",
@@ -687,7 +600,7 @@
     },
     "org.nuget.system.diagnostics.eventlog": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.security.principal.windows": "5.0.0"
@@ -696,7 +609,7 @@
     },
     "org.nuget.system.io.pipelines": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.buffers": "4.6.1",
@@ -707,7 +620,7 @@
     },
     "org.nuget.system.memory": {
       "version": "4.6.3",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.buffers": "4.6.1",
@@ -718,7 +631,7 @@
     },
     "org.nuget.system.net.serversentevents": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -729,14 +642,14 @@
     },
     "org.nuget.system.numerics.vectors": {
       "version": "4.6.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.system.reflection.metadata": {
       "version": "9.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.collections.immutable": "9.0.0",
@@ -746,21 +659,21 @@
     },
     "org.nuget.system.runtime.compilerservices.unsafe": {
       "version": "6.1.2",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.system.security.principal.windows": {
       "version": "5.0.0",
-      "depth": 5,
+      "depth": 4,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
     "org.nuget.system.text.encoding.codepages": {
       "version": "7.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.memory": "4.5.5",
@@ -770,7 +683,7 @@
     },
     "org.nuget.system.text.encodings.web": {
       "version": "10.0.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.buffers": "4.6.1",
@@ -781,7 +694,7 @@
     },
     "org.nuget.system.text.json": {
       "version": "10.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -796,7 +709,7 @@
     },
     "org.nuget.system.threading.channels": {
       "version": "10.0.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "org.nuget.microsoft.bcl.asyncinterfaces": "10.0.1",
@@ -806,30 +719,12 @@
     },
     "org.nuget.system.threading.tasks.extensions": {
       "version": "4.6.3",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2"
       },
       "url": "https://package.openupm.com"
-    },
-    "com.unity.modules.ai": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.androidjni": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.animation": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
     },
     "com.unity.modules.assetbundle": {
       "version": "1.0.0",
@@ -839,7 +734,7 @@
     },
     "com.unity.modules.audio": {
       "version": "1.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
@@ -861,63 +756,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.modules.particlesystem": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.physics": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.physics2d": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.screencapture": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.imageconversion": "1.0.0"
-      }
-    },
-    "com.unity.modules.subsystems": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0"
-      }
-    },
-    "com.unity.modules.terrain": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.terrainphysics": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.terrain": "1.0.0"
-      }
-    },
-    "com.unity.modules.tilemap": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics2d": "1.0.0"
-      }
-    },
     "com.unity.modules.ui": {
       "version": "1.0.0",
       "depth": 0,
@@ -933,12 +771,6 @@
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       }
-    },
-    "com.unity.modules.umbra": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
     },
     "com.unity.modules.unityanalytics": {
       "version": "1.0.0",
@@ -993,50 +825,6 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.imageconversion": "1.0.0"
-      }
-    },
-    "com.unity.modules.vehicles": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      }
-    },
-    "com.unity.modules.video": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0"
-      }
-    },
-    "com.unity.modules.vr": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.xr": "1.0.0"
-      }
-    },
-    "com.unity.modules.wind": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.xr": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.subsystems": "1.0.0"
       }
     }
   }

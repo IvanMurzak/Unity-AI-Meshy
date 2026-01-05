@@ -17,7 +17,7 @@ namespace com.IvanMurzak.Unity.MCP.Meshy.Installer.Tests
     {
         const string PackageIdTag = "PACKAGE_ID";
         const string PackageVersionTag = "PACKAGE_VERSION";
-        const string FilesRoot = "Assets/AI Meshy Installer/Tests/Files";
+        const string FilesRoot = "Assets/com.IvanMurzak/AI Meshy Installer/Tests/Files";
         const string FilesCopyRoot = "Temp/AI Meshy Installer/Tests/Files";
         static string CorrectManifestPath => $"{FilesRoot}/Correct/correct_manifest.json";
 
