@@ -1,5 +1,6 @@
 {
     "name": "com.IvanMurzak.Unity.MCP.Meshy.Editor.Tests",
+    "rootNamespace": "",
     "references": [
         "com.IvanMurzak.Unity.MCP.Editor",
         "com.IvanMurzak.Unity.MCP.Editor.Tests",
@@ -28,9 +29,7 @@
         "R3.dll"
     ],
     "autoReferenced": false,
-    "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
-    ],
+    "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
 }

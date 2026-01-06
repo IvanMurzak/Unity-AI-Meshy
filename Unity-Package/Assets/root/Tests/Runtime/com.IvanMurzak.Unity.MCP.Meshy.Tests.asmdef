@@ -1,5 +1,6 @@
 {
     "name": "com.IvanMurzak.Unity.MCP.Meshy.Tests",
+    "rootNamespace": "",
     "references": [
         "com.IvanMurzak.Unity.MCP.Runtime",
         "com.IvanMurzak.Unity.MCP.Runtime.Tests",
@@ -23,9 +24,7 @@
         "R3.dll"
     ],
     "autoReferenced": false,
-    "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
-    ],
+    "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
 }
